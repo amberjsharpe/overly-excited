@@ -1,38 +1,35 @@
 // Create an array that contains the words in the sentence
 // Might be a way to use .string or .substring to do automatically
 
-let sentence = [" The", " walrus", " danced", " through", " the", " trees", " in", " the", " light", " of", " the", " moon"];
-
-/*
-    The addExcitement function should be an impure function, and accept
-    the array as the sole argument. It should iterate over the array
-    and output the words to the browser console.
-*/
+//let sentence = [" The", " walrus", " danced", " through", " the", " trees", " in", " the", " light", " of", " the", " moon"];
+let funSentence = [" I", " wanna", " rock", " and", " roll", " all", " night", " and", " party", " every", " day"[;]];
 
 // At every third string in an array
-
 var wordArray = [];
+var inputSentence = funSentence;
 
-function addExcitement (theWordArray, punctuation) {
-    for (i = 0; i < sentence.length; i++) { 
-        wordArray += sentence[i];
+let addExcitement = (theWordArray, punctuation) => {
+    for (i = 0; i < inputSentence.length; i++) { 
+        wordArray += inputSentence[i];
         console.log(wordArray);
-        var taco = i + 1;
-        if (taco % 3 === 0) {
-            var counter = taco/3;
+        var position = i + 1;
+        if (position % 3 === 0) {
+            var counter = position/3;
             var excite = punctuation;                  
             wordArray += excite.repeat(counter);
             console.log(wordArray);     
-        } 
-        
+        }         
     } 
 }
-
-
 // Invoke the function and pass in the array
-addExcitement(sentence, "?");
+//addExcitement(sentence, "?");
 
-// Add more excitement!
+// New fun sentence!
+addExcitement(funSentence, "!");
+
+
+
+
 
 
 
