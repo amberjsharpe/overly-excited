@@ -2,7 +2,7 @@
 // Might be a way to use .string or .substring to do automatically
 
 //let sentence = [" The", " walrus", " danced", " through", " the", " trees", " in", " the", " light", " of", " the", " moon"];
-let funSentence = [" I", " wanna", " rock", " and", " roll", " all", " night", " and", " party", " every", " day"[;]];
+let funSentence = [" I", " wanna", " rock", " and", " roll", " all", " night", " and", " party", " every", " day"];
 
 // At every third string in an array
 var wordArray = [];
